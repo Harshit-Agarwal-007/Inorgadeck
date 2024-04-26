@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-container {
+
+  height: 600px;
+  width: 1300px;
+  margin: 10px;
+  background: linear-gradient(to top,
+          rgba(23, 117, 205, 1),
+          rgba(104, 180, 216, 1));
+  border-radius: 35px;
+  box-shadow: 2px 0px 0px rgba(41, 62, 82, 0.4);
+  overflow: auto;
+
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.card {
+  width:500px;
+  height: 500px;
+  background: linear-gradient(
+    to top,
+    rgba(3, 15, 29, 1), 
+    rgba(104, 180, 216, 1));
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.image
+{
+  margin-top: 10px;
+  width: 200px;
+}
+
+.bond
+{
+  width: 200px;
+
+
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+
+
+
+
+
+.compound-name {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  position: absolute;
+  top:400px;
+  margin: 5px;
+  
+  
+}
+
+
+
+.heading{
+  font-size: 3.6em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: -10px;
+  left: 230px;
+  font-family: "Poppins", sans-serif;
+ 
+}
+html {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(5, 21, 38, 1),
+          rgba(18, 78, 140, 1)
+         );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image{
+  position: absolute;
+  top:2px;
+  size: 5px;
+}
+.bond{
+  position: absolute;
+  top:150px;
+}
+.corner{
+  position: absolute;
+  left:5px;
+  top:5px;
+  height: 80px;
+}
+
+#btn{
+  margin-right: 1vw;
+  width: 12%;
+  height: 45px;
+  display: flex;
+  font-weight: bold;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  color: rgba(23, 117, 205, 1);
+  border-radius: 2vw;
+  font-size: 2.2em;
+  justify-content: center;
+  align-items: center;
+  border-color: rgba(23, 117, 205, 1);
+  text-decoration: none;
+  margin-top: 0vw;
+  padding: 1vw 3vw;
+  position: absolute;
+  top: 15px;
+  right: 2px;
+}
+
+
+#btn:hover
+{
+  background: rgb(255, 255, 255);
+  border-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.add-checkbox
+{
+  position: relative;
+  top: 270px;
+}
+
+.add-checkbox label
+{
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+
+}
+
+.add-checkbox input[type="checkbox"] {
+  /* Hide the default checkbox appearance */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Define custom checkbox size */
+  width: 20px;
+  height: 20px;
+  /* Add border */
+  border: 2px solid #ccc; /* Default border color */
+  border-radius: 4px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Style for the checkbox when checked */
+.add-checkbox input[type="checkbox"]:checked {
+  background-color: #3700ff; /* Change background color when checked */
+/* Change border color when checked */
+  content: '\u2713';
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InorgaDeck</title>
+    <link rel="stylesheet" href="css/playScreen.css" />
+  </head>
+  <body>
+    <div id="timeleft">
+      <span id="topic"> Rxn Count</span>
+      <span id="countdown">0/10</span>
+    </div>
+    <div id="linkLeft">
+      <a href="ShowAllReactants.html"></a>
+    </div>
+    <div id="linkButtom">
+      <a href="ShowAllReagents.html"></a>
+    </div>
+    <div id="linkRight">
+      <a href="ShowAllProducts.html"></a>
+    </div>
+    <div id="linkReactant">
+      <a href="ReactantsinBucket.html"></a>
+    </div>
+    <div id="linkReagent">
+      <a href="ReagentsinBucket.html"></a>
+    </div>
+    <div id="linkProduct">
+      <a href="ProductsinBucket.html"></a>
+    </div>
+    <div id="ViewLearned">
+      <a href="learnedReactions.html"></a>
+    </div>
+    <div id="ViewReaction">
+      <a href="#" >View Reaction</a>
+  </div>
+  <!-- Popup (hidden by default) -->
+  <div id="popup" class="popup">
+      <div class="popup-content">
+          <h2>Time's Up!</h2>
+          <p>You will be redirected to the learned reactions page now</p>
+          <button onclick="closePopupAndRedirect()">OK</button>
+      </div>
+  </div>
+  <script>
+    
+    function closePopupAndRedirect() {
+      window.location.href = 'learnedReactions.html';
+    }
+
+  </script>
+    <!-- <script src="js/timer.js"></script> -->
+    <script src="js/playScreen.js"></script>
+  </body>
+</html>

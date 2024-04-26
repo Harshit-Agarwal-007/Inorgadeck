@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,
+            rgba(18, 78, 140, 1),
+            rgba(5, 21, 38, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1250px;
+    margin: 10px;
+    background: linear-gradient(to top,
+            rgba(23, 117, 205, 1),
+            rgba(104, 180, 216, 1));
+    border-radius: 35px;
+    box-shadow: 2px 0px 0px rgba(41, 62, 82, 0.4);
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 195px;
+   
+}
+
+.logo img {
+    max-width: 250px;
+    height: 120px;
+    
+}
+#img1{
+   padding-right: 25vh;
+}
+#img2{
+    padding-left: 30vh;
+}
+
+.topic {
+    
+    font-size: 3em;
+    color: white;
+   font-weight: bold;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.rules , #isread{
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 20vh;
+    margin-right: 60px;
+    color: white;
+    font-size: 27px;
+    text-align: justify;
+    font-weight: lighter;
+}
+#isread
+{
+    margin-top: 0px;
+}
+
+#isread label
+{
+    font-size: 27px;
+    font-weight: bold;
+}
+.start{
+  align-items: center;
+    margin-left: 70%;
+    margin-top: -8vh;
+}
+
+.startButton{
+    width:188px;
+    display: flex;
+    font-weight: bold;
+    background: white;
+    font-family: "Poppins", sans-serif;
+    color:    rgba(23, 117, 205, 1);
+    border-radius: 35px;
+    font-size: 32px;
+    padding: 5px 20px;
+    border-color: rgba(23, 117, 205, 1);
+    text-decoration: none;
+}
+.startButton:hover{
+    background: rgb(255, 255, 255);
+    border-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+text-decoration: none;
+}

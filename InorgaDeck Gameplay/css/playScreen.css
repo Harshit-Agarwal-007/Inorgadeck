@@ -1,0 +1,176 @@
+/* Apply CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* Set full viewport height */
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* Use background image with cover and centered position */
+  background-image: url('GameScreen.png');
+  background-size: 1550px 750px;
+  background-position: center;
+  /* Ensure background image stays fixed while scrolling */
+  background-attachment: fixed;
+  /* Center content horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#timeleft
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+top: -320px;
+left: 585px;
+}
+#timeleft span
+{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#linkLeft
+{
+  position: absolute;
+  top: 495px;
+  left: 215px;
+}
+
+#linkLeft a
+{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+#linkButtom
+{
+  position: absolute;
+  top: 530px;
+  left: 900px;
+}
+
+#linkButtom a
+{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+#linkRight
+{
+  position: absolute;
+  top: 495px;
+  right: 245px;
+}
+
+#linkRight a
+{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+#linkReactant
+{
+  position: absolute;
+  top: 345px;
+  left: 385px;
+}
+
+#linkReactant a
+{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+#linkReagent
+{
+  position: absolute;
+  top: 345px;
+  left: 710px;
+}
+
+#linkReagent a
+{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+#linkProduct
+{
+  position: absolute;
+  top: 345px;
+  right: 435px;
+}
+
+#linkProduct a
+{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+#ViewLearned
+{
+  position: absolute;
+  top: 45px;
+  right: 615px;
+}
+
+#ViewLearned a
+{
+  display: block;
+  height: 90px;
+  width: 280px;
+}
+
+#ViewReaction
+{
+  position: absolute;
+  bottom: 190px;
+  right: 615px;
+}
+
+#ViewReaction a
+{
+  display: block;
+  height: 90px;
+  width: 280px;
+}
+/* CSS for the popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  z-index: 9999;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}

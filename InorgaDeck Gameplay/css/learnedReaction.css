@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(5, 21, 38, 1),
+            rgba(18, 78, 140, 1)
+           );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 1150px;
+    margin: 10px;
+    margin-top: 7vw;
+    background: linear-gradient(to top,
+            rgba(23, 117, 205, 1),
+            rgba(104, 180, 216, 1));
+    border-radius: 35px;
+    box-shadow: 2px 0px 0px rgba(41, 62, 82, 0.4);
+    overflow: auto;
+    padding-right: 0px;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 3vw;
+    width: 88%;
+    justify-content: space-between;
+}
+
+.logo img {
+   position: absolute;
+    height: 80px;
+    margin-left: 1vw;
+    margin-top: -1.3vw;
+    top: -10px;
+    left: -190px;
+}
+
+.topic {
+    font-size: 4.5em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: -45px;
+    left: 30px;
+}
+
+.reactions {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    justify-content: left;
+    margin-left: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Button {
+    margin-right: 1vw;
+    width: 12%;
+    height: 45px;
+    display: flex;
+    font-weight: bold;
+    background: white;
+    font-family: "Poppins", sans-serif;
+    color: rgba(23, 117, 205, 1);
+    border-radius: 2vw;
+    font-size: 2.2em;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(23, 117, 205, 1);
+    text-decoration: none;
+    margin-top: 0vw;
+    padding: 1vw 3vw;
+    position: absolute;
+    top: -30px;
+    right: 2px;
+}
+
+.Button:hover {
+    background: rgb(255, 255, 255);
+    border-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+
+
+#container::-webkit-scrollbar {
+        width: 15px;
+    /* Set width of the scrollbar */
+    
+}
+
+#container::-webkit-scrollbar-track {
+    background: rgba(18, 78, 140, 1);
+    border-radius: 5px; /* Set color of the scrollbar track */
+}
+
+#container::-webkit-scrollbar-thumb {
+    background: rgba(93, 172, 215, 1); /* Set color of the scrollbar thumb */
+    border-radius: 5px; /* Set border radius of the scrollbar thumb */
+}
+
+#container::-webkit-scrollbar-thumb:hover {
+    background: white; /* Set color of the scrollbar thumb on hover */
+}
