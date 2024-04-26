@@ -4,7 +4,7 @@ import Image from "./image.png"
 function Landingpage() {
   const redirectToExternalWebsite = () => {
     // Redirect to your existing website URL
-    window.location.href = 'http://127.0.0.1:5500/AuthSignIn.html';
+    window.location.href = 'https://github.com/Harshit-Agarwal-007/Inorgadeck/blob/main/InorgaDeck%20Gameplay/AuthSignIn.html';
   };
   return (
     
